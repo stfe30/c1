@@ -1,3 +1,5 @@
+// TEST-File: Division durch Null
+
 #include <stdio.h>
 int main() {
     int dividend, divisor, quotient, remainder;
