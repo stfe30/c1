@@ -3,4 +3,3 @@ c1make: c1.c
 
 clean:
 	rm -f *.o c1make Makefile
-	mv Makefile.orig Makefile
