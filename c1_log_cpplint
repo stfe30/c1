@@ -1,0 +1,4 @@
+user@notebook:~/c1$ cpplint c1.c
+c1.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]
+Done processing c1.c
+Total errors found: 1

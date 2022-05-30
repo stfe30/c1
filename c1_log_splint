@@ -1,0 +1,11 @@
+user@notebook:~/c1$ splint c1.c
+Splint 3.1.2 --- 20 Feb 2018
+
+c1.c: (in function main)
+c1.c:7:5: Return value (type int) ignored: scanf("%d", &div...
+  Result returned by function call is not used. If this is intended, can cast
+  result to (void) to eliminate message. (Use -retvalint to inhibit warning)
+c1.c:9:5: Return value (type int) ignored: scanf("%d", &div...
+
+Finished checking --- 2 code warnings
+
